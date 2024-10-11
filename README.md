@@ -19,3 +19,107 @@ You can use it by specifying the name of the secret to be detected and the locat
 ## Ethics
 Following the current code of ethics of ACM and IEEE, to respect privacy, we only provide the feature data used for training the LDA model, 
 which does not involve actual secret text. For the same reason, the prompt dataset used in the experiments has also not been provided.
+## Observation results of secrets in Section III
+We present our observations on real and fake secrets for GAK, STSK, TCSI, and GOCI.
+### Scatter Plot of Token Probabilities
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="imgs/google_api_key_probs_scatter_plot.png" alt="GAK probs scatter plot" width="400">
+        <figcaption>GAK</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="imgs/stripe_test_probs_scatter_plot.png" alt="STSK probs scatter plot" width="400">
+        <figcaption>STSK</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="imgs/tencent_probs_scatter_plot.png" alt="TCSI probs scatter plot" width="400">
+        <figcaption>TCSI</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="imgs/oauth_probs_scatter_plot.png" alt="GOCI probs scatter plot" width="400">
+        <figcaption>GOCI</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+### Scatter Plot of Token Probability Advantages
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="imgs/google_api_key_prob_advantages_scatter_plot.png" alt="GAK prob_advantages scatter plot" width="400">
+        <figcaption>GAK</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="imgs/stripe_test_prob_advantages_scatter_plot.png" alt="STSK prob_advantages scatter plot" width="400">
+        <figcaption>STSK</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="imgs/tencent_prob_advantages_scatter_plot.png" alt="TCSI prob_advantages scatter plot" width="400">
+        <figcaption>TCSI</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="imgs/oauth_prob_advantages_scatter_plot.png" alt="GOCI prob_advantages scatter plot" width="400">
+        <figcaption>GOCI</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+### Scatter Plot of Token Average Probabilities
+We also present Average Probabilities scatter plots of secrets here to demonstrate the effectiveness of this feature in distinguishing between real and fake secrets.
+
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="imgs/google_api_key_avg_prob_scatter_plot.png" alt="GAK avg_prob scatter plot" width="400">
+        <figcaption>GAK</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="imgs/stripe_test_avg_prob_scatter_plot.png" alt="STSK avg_prob scatter plot" width="400">
+        <figcaption>STSK</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="imgs/tencent_avg_prob_scatter_plot.png" alt="TCSI avg_prob scatter plot" width="400">
+        <figcaption>TCSI</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="imgs/oauth_avg_prob_scatter_plot.png" alt="GOCI avg_prob scatter plot" width="400">
+        <figcaption>GOCI</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
