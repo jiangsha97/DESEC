@@ -10,7 +10,7 @@ This repository contains a preliminary version of this paper. We propose DESEC, 
 |         ScoringModelConstruction          | Script for training LDA model  |
 ## Usage
 1. Collect prompt files for experiments using the method described in the paper and store them in a folder.
-2. For the LDA model that guides the decoding process, you can directly use the models in `LDA_madels`, which are trained from feature data in `Data`.
+2. For the LDA model that guides the decoding process, you can directly use the models in `LDA_Models`, which are trained from feature data in `Data`.
 You can also collect data on your own according to the methods in the paper, and use `LDA_Model_Training.py` in `ScoringModelConstruction` to train LDA models.
 3. With the prompts and LDA scoring model in place, you can use `DESEC_TestWithCodeLLM.py` in `Decoding`.
 Fill in the locations of your Code LLM, prompt dataset, and model output text, and then perform DESEC decoding under the guidance of the scoring model.
