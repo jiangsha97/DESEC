@@ -53,6 +53,8 @@ We present our observations on real and fake secrets for GAK, STSK, TCSI, and GO
   </tr>
 </table>
 
+
+
 ### Scatter Plot of Token Probability Advantages
 <table>
   <tr>
@@ -84,6 +86,13 @@ We present our observations on real and fake secrets for GAK, STSK, TCSI, and GO
     </td>
   </tr>
 </table>
+
+|         **Secret Type**         |                        **t-statistic**                        |                        **p-value**                        |
+|:--------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
+|            GAK            |             34.48                |             $1.46 \times 10^-236$               |
+|       GOCI       |        21.04       |             $1.21 \times 10^-81$               |
+|         STSK         | 16.16  |             $1.12 \times 10^-56$                |
+|         TCSI          | 29.60  |             $7.05 \times 10^-176                |
 
 ### Scatter Plot of Token Average Probabilities
 We also present Average Probabilities scatter plots of secrets here to demonstrate the effectiveness of this feature in distinguishing between real and fake secrets.
