@@ -53,7 +53,14 @@ We present our observations on real and fake secrets for GAK, STSK, TCSI, and GO
   </tr>
 </table>
 
+**Significant Testing of Token Probability**
 
+|         **Secret Type**         |                        **t-statistic**                        |                        **p-value**                        |
+|:--------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
+|            GAK            |             29.95               |             $5.81 \times 10^{-183}$               |
+|       GOCI       |        20.32       |             $4.37 \times 10^{-77}$               |
+|         STSK         | 12.67  |             $5.37 \times 10^{-36}$                |
+|         TCSI          | 25.10  |             $3.66 \times 10^{-130}$                |
 
 ### Scatter Plot of Token Probability Advantages
 <table>
@@ -87,7 +94,7 @@ We present our observations on real and fake secrets for GAK, STSK, TCSI, and GO
   </tr>
 </table>
 
-####Significant Testing of Token Probability Advantage####
+**Significant Testing of Token Probability Advantage**
 
 |         **Secret Type**         |                        **t-statistic**                        |                        **p-value**                        |
 |:--------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
