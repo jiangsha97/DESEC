@@ -137,7 +137,14 @@ We also present Average Probabilities scatter plots of secrets here to demonstra
   </tr>
 </table>
 
+**Significant Testing of TToken Average Probability**
 
+|         **Secret Type**         |                        **t-statistic**                        |                        **p-value**                        |
+|:--------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
+|            GAK            |             29.95                |             $5.81 \times 10^{-183}$               |
+|       GOCI       |        20.32       |             $4.37 \times 10^{-77}$               |
+|         STSK         | 12.67  |             $5.37 \times 10^{-36}$                |
+|         TCSI          | 25.10  |             $3.66 \times 10^{-130}$                |
 
 
 
