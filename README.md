@@ -104,8 +104,6 @@ We present our observations on real and fake secrets for GAK, STSK, TCSI, and GO
 |         TCSI          | 29.60  |             $7.05 \times 10^{-176}$                |
 
 ### Scatter Plot of Token Average Probabilities
-We also present Average Probabilities scatter plots of secrets here to demonstrate the effectiveness of this feature in distinguishing between real and fake secrets.
-
 <table>
   <tr>
     <td>
@@ -137,6 +135,7 @@ We also present Average Probabilities scatter plots of secrets here to demonstra
   </tr>
 </table>
 
+We also present Average Probabilities scatter plots of secrets here to demonstrate the effectiveness of this feature in distinguishing between real and fake secrets.
 **Significant Testing of TToken Average Probability**
 
 |         **Secret Type**         |                        **t-statistic**                        |                        **p-value**                        |
