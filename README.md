@@ -174,12 +174,12 @@ We additionally illustrate three secret generation examples for DESEC, HCR, and 
         <figcaption>STSK Generation using StarCoder2-15B</figcaption>
       </figure>
     </td>
-<!--     <td>
+    <td>
       <figure>
-        <img src="imgs/oauth_avg_prob_scatter_plot.png" alt="GOCI avg_prob scatter plot" width="400">
-        <figcaption>GOCI</figcaption>
+        <img src="cases/4.png" width="400">
+        <figcaption>TCSI Generation using CodeLlama-13B</figcaption>
       </figure>
-    </td> -->
+    </td>
   </tr>
 </table>
 
