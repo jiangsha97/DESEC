@@ -1,4 +1,4 @@
-This repository contains a preliminary version of this paper. We propose DESEC, a two-stage method that leverages token-level features derived fromthe identified characteristics to guide the decoding process.
+![图片](https://github.com/user-attachments/assets/32a5fa20-01dc-4c6a-a161-74a76cd7dc6e)![图片](https://github.com/user-attachments/assets/0f6ef275-4148-4379-bb8f-26f02327c000)This repository contains a preliminary version of this paper. We propose DESEC, a two-stage method that leverages token-level features derived fromthe identified characteristics to guide the decoding process.
 ## Structure
 |         **Folder**         |                        **Description**                        |
 |:--------------------------:|:-------------------------------------------------------:|
@@ -150,5 +150,36 @@ We also present Average Probabilities scatter plots of secrets here to demonstra
 |         TCSI          | 25.10  |             $3.66 \times 10^{-130}$                |
 
 ### Csae Study
+We additionally illustrate three secret generation examples for DESEC, HCR, and BS-5. 
 
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="cases/1.png" width="400">
+        <figcaption>GOCI Generation using CodeLlama-13B</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="cases/2.png" width="400">
+        <figcaption>GAK Generation using CodeGen-7B</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="cases/3.png" width="400">
+        <figcaption>STSK Generation using StarCoder2-15B</figcaption>
+      </figure>
+    </td>
+<!--     <td>
+      <figure>
+        <img src="imgs/oauth_avg_prob_scatter_plot.png" alt="GOCI avg_prob scatter plot" width="400">
+        <figcaption>GOCI</figcaption>
+      </figure>
+    </td> -->
+  </tr>
+</table>
 
