@@ -1,4 +1,4 @@
-![图片](https://github.com/user-attachments/assets/32a5fa20-01dc-4c6a-a161-74a76cd7dc6e)![图片](https://github.com/user-attachments/assets/0f6ef275-4148-4379-bb8f-26f02327c000)This repository contains a preliminary version of this paper. We propose DESEC, a two-stage method that leverages token-level features derived fromthe identified characteristics to guide the decoding process.
+This repository contains a preliminary version of this paper. We propose DESEC, a two-stage method that leverages token-level features derived fromthe identified characteristics to guide the decoding process.
 ## Structure
 |         **Folder**         |                        **Description**                        |
 |:--------------------------:|:-------------------------------------------------------:|
