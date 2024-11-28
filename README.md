@@ -6,6 +6,7 @@ This repository contains a preliminary version of this paper. We propose DESEC, 
 |       Decoding       |        Guide Code LLM decoding       |
 |         Evaluation          | Evaluate the secrets  |
 |         imgs          | Supplementary scatter plot supporting the conclusion of Section III. C  |
+|         cases          | Case study  |
 |         LDA_Models          | Trained LDA model  |
 |         ScoringModelConstruction          | Script for training LDA model  |
 ## Usage
@@ -148,5 +149,6 @@ We also present Average Probabilities scatter plots of secrets here to demonstra
 |         STSK         | 12.67  |             $5.37 \times 10^{-36}$                |
 |         TCSI          | 25.10  |             $3.66 \times 10^{-130}$                |
 
+### Csae Study
 
 
