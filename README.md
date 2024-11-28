@@ -157,14 +157,13 @@ We additionally illustrate four secret generation examples for DESEC, HCR, and B
     <td>
       <figure>
         <img src="cases/1.png" width="400">
-<!--         <figcaption>GOCI Generation using CodeLlama-13B</figcaption> -->
         <p style="text-align: center;">GOCI Generation using CodeLlama-13B</p>
       </figure>
     </td>
     <td>
       <figure>
         <img src="cases/2.png" width="400">
-        <figcaption>GAK Generation using CodeGen-7B</figcaption>
+        <p style="text-align: center;">GAK Generation using CodeGen-7B</p>
       </figure>
     </td>
   </tr>
@@ -172,13 +171,13 @@ We additionally illustrate four secret generation examples for DESEC, HCR, and B
     <td>
       <figure>
         <img src="cases/3.png" width="400">
-        <figcaption>STSK Generation using StarCoder2-15B</figcaption>
+        <p style="text-align: center;">STSK Generation using StarCoder2-15B</p>
       </figure>
     </td>
     <td>
       <figure>
         <img src="cases/4.png" width="400">
-        <figcaption>TCSI Generation using CodeLlama-13B</figcaption>
+        <p style="text-align: center;">TCSI Generation using CodeLlama-13B</p>
       </figure>
     </td>
   </tr>
