@@ -150,14 +150,15 @@ We also present Average Probabilities scatter plots of secrets here to demonstra
 |         TCSI          | 25.10  |             $3.66 \times 10^{-130}$                |
 
 ### Csae Study
-We additionally illustrate three secret generation examples for DESEC, HCR, and BS-5. 
+We additionally illustrate four secret generation examples for DESEC, HCR, and BS-5. 
 
 <table>
   <tr>
     <td>
       <figure>
         <img src="cases/1.png" width="400">
-        <figcaption>GOCI Generation using CodeLlama-13B</figcaption>
+<!--         <figcaption>GOCI Generation using CodeLlama-13B</figcaption> -->
+        <p style="text-align: center;">GOCI Generation using CodeLlama-13B</p>
       </figure>
     </td>
     <td>
