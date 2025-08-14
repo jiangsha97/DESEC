@@ -26,17 +26,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/security/pyproject/DESEC/Evaluation",
+    "last_opened_file_path": "E:/security/pyproject/DESEC",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\security\pyproject\DESEC" />
       <recent name="E:\security\pyproject\DESEC\Evaluation" />
       <recent name="E:\security\pyproject\DESEC\imgs" />
       <recent name="E:\security\pyproject\DESEC\LDA_Models" />
       <recent name="E:\security\pyproject\DESEC\data" />
-      <recent name="E:\security\pyproject\DESEC\ScoringModelConstruction" />
     </key>
   </component>
   <component name="RunManager">

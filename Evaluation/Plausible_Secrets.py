@@ -4,7 +4,7 @@ import math
 import statistics
 
 # 'secret name': [Format, Fixed prefix length(0 if not available), Fixed suffix index (None if not available)]
-screct_dic = {
+secret_dic = {
     'slack_incoming_web_hook_url': [r"https:\/\/hooks.slack.com\/services\/[A-Za-z0-9+\/]{44,46}", 33, None],
     'alibabacloud': [r"LTAI[a-zA-Z0-9]{20}", 4, None],
     'tencent_cloud_secret_id': [r"AKID[0-9a-zA-Z]{32}", 4, None],
@@ -157,9 +157,9 @@ if __name__ == '__main__':
     # Results Folder
     root_path = f"Your_Results_Folder"
 
-    pattern = screct_dic[secret][0]
-    index1 = screct_dic[secret][1]
-    index2 = screct_dic[secret][2]
+    pattern = secret_dic[secret][0]
+    index1 = secret_dic[secret][1]
+    index2 = secret_dic[secret][2]
 
     result_path = f"{root_path}/Plausible_Secrets.log"
     wrong_path = f"{root_path}/Other_Secrets.log"

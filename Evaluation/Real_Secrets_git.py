@@ -10,7 +10,7 @@ import requests
 # Replace the token here with your GitHub access token
 token = ''
 
-screct_dic = {
+secret_dic = {
     'slack_incoming_web_hook_url': r"https:\/\/hooks.slack.com\/services\/[A-Za-z0-9+\/]{44,46}",
     'alibabacloud': r"LTAI[a-zA-Z0-9]{20}",
     'tencent_cloud_secret_id': r"AKID[0-9a-zA-Z]{32}",
@@ -19,7 +19,7 @@ screct_dic = {
     'stripe_test': r"sk_test_[0-9a-zA-Z]{24}",
 }
 
-# screct_dic = {
+# secret_dic = {
 #     'aws_access_key_id': r"AKIA[0-9A-Z]{16}",
 #     'google_oauth_client_secret': r"GOCSPX-[a-zA-Z0-9]{28}",
 #     'midtrans_sandbox_server_key': r"SB-Mid-server-[0-9a-zA-Z_-]{24}",
@@ -178,7 +178,7 @@ if __name__ == "__main__":
     logging.basicConfig(filename=f"{correct_folder}/githubsearch_infotest.log",
                         level=logging.INFO, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
 
-    pattern = screct_dic[secret]
+    pattern = secret_dic[secret]
 
     # files record the verified secrets to avoid repeated queries
     true_key_file = f""
